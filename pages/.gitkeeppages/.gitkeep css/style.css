@@ -1,0 +1,16 @@
+/* Global Style Template */
+:root {
+  --primary: #0046FF;
+  --dark: #111;
+  --light: #FFFFFF;
+
+  --font-main: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+  background: var(--light);
+  color: var(--dark);
+}
